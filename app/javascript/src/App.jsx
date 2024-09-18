@@ -19,11 +19,17 @@ const App = () => {
   }, [recipes])
 
   return (
-    <div>
-      <h1>Daniel's Recipes</h1>
-      <br/>
-      <RecipeList />
-    </div>
+      <div
+        style={{
+          padding: '20px 50px',
+        }}
+      >
+        <center>
+          <h1>My Recipes</h1>
+        </center>
+        <br/>
+        <RecipeList />
+      </div>
   )
 }
 

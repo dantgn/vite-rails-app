@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this project was to play around with React inside a Rails project using Vite.
 
-Things you may want to cover:
+I am using Ruby 3.2 and Rails 7.0
 
-* Ruby version
+The Backend of this project is a Rails API which provides the content to the views.
 
-* System dependencies
+The Frontend used is ReactJS using [Vite Ruby](https://vite-ruby.netlify.app/guide/rails.html)
 
-* Configuration
+I added [Antd Design](https://ant.design/) to beautify a bit the UI.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It is a very simple project with the only aim to setup a project with Ruby on Rails + React + Vite, which I think it is a great combination.

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Recipe from './Recipe'
+import {Row, Col} from "antd"
 
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([])
@@ -13,11 +14,15 @@ const RecipeList = () => {
   return (
     <>
       {
-        recipes && recipes.map( recipe =>
-          <div key={recipe.id}>
-            <Recipe details={recipe} />
-          </div>
-        )
+        <Row gutter={20}>
+          {
+          recipes && recipes.map( recipe =>
+              <Col xs={24} md={12}>
+                <Recipe details={recipe} />
+              </Col>
+          )
+          }
+        </Row>
       }
       {
         !recipes && (
